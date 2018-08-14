@@ -1,0 +1,51 @@
+.wrap{
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.container{
+    display: inline-block;
+    width: 33%;
+
+}
+
+h1{
+    color: rosybrown;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box{
+    /* border-radius: 50%; */
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.wrap:hover .box{/*hover = quando passa o mouse*/
+    transform: scalex(2);
+
+}
+
+.box1{
+    background-color: rgb(241, 157, 203);
+    transition: all 300ms; /*all significa que todo o elemento se mexe conforme o tempo determinado*/
+}
+
+
+
+.box2{
+    transition: all 1s;
+    background: rgb(241, 156, 170);
+}
+
+
+
+.box3{
+    background: rgb(236, 95, 161);
+    transition: all 3s;
+}
+
